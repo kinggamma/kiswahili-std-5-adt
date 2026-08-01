@@ -37,7 +37,8 @@
     },
     "theme": "dark",
     "iconSize": "md",
-    "reduceMotion": false
+    "reduceMotion": false,
+    "describeImages": true
   },
   "lockedSettings": [
     "dockLayout",
