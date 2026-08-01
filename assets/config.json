@@ -3,7 +3,6 @@
   "bundleVersion": "1",
   "languages": {
     "available": [
-      "sw",
       "sw-TZ"
     ],
     "default": "sw-TZ"
