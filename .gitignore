@@ -1,1 +1,6 @@
 content/i18n/sw/audio/
+# Local API credentials
+.env
+.env.*
+!.env.example
+*.key

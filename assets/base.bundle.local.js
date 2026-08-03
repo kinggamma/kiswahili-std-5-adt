@@ -54041,7 +54041,7 @@ function useAtomValueWithDelay<Value>(
             const tag = el.tagName.toLowerCase();
             if (/^h[1-6]$/.test(tag)) return true;
             return Boolean(
-              el.closest(".word-card") || el.closest("[data-activity-item]") || el.closest(".activity-text") || el.closest("nav")
+              el.closest(".word-card") || el.closest("[data-activity-item]") || el.closest(".activity-text") || el.closest("nav") || hasUnderlineOptionDescendants(el)
             );
           });
           if (!isHeaderOrExcluded) translationKey = easyReadKey;
@@ -57415,6 +57415,7 @@ ${OPTION_BASE} [${MARK_ATTR}="incorrect"] {
     let selectedId = null;
     let validated = false;
     const anyPlaced = () => [...items.values()].some((i) => i.slotId !== null);
+    const allPlaced = () => [...items.values()].every((i) => i.slotId !== null);
     const itemFromEl = (el) => {
       const id = getItemId3(el);
       return id ? items.get(id) ?? null : null;
@@ -57453,7 +57454,7 @@ ${OPTION_BASE} [${MARK_ATTR}="incorrect"] {
     const refreshSubmit = () => {
       store.set(submitStateAtom, "submit");
       store.set(submitLabelAtom, null);
-      store.set(submitEnabledAtom, anyPlaced());
+      store.set(submitEnabledAtom, allPlaced());
     };
     const returnHome = (item) => {
       clearItemVerdict(item);
@@ -57596,6 +57597,13 @@ ${OPTION_BASE} [${MARK_ATTR}="incorrect"] {
       }
       const placed = [...items.values()].filter((i) => i.slotId !== null);
       if (placed.length === 0) return;
+      if (!allPlaced()) {
+        announceToScreenReader(
+          tr9("matching-not-complete", "Please match every item before submitting.")
+        );
+        refreshSubmit();
+        return;
+      }
       clearAllVerdicts();
       let correct = 0;
       for (const item of placed) {
