@@ -50,7 +50,7 @@
         "pg006_n0002": "5824e4635642f0ec4d5390ef77a018f2e2726e7307f0b60531487126050829a4",
         "pg006_n0004": "294a084be28f4469147b6c1e73b28fcc9c49e84f145c65740767be72df4b3520",
         "pg006_n0005": "8b5807f29c0918da141ef50ce5efd94625feadcc4011c18203fde801583f4965",
-        "pg006_n0007": "433d88826025710daa02b05f8436a18130ea63da50a10e81106a98880d3958a8",
+        "pg006_n0007": "d1e71993e76e1ee16edd65d0f9ab2242ec2a91c213ca36bc1b81481b24cb9a94",
         "pg006_n0008": "eadc2a04b5c39d87e6afa53458557e10bfc3d11470bee70b78b9040c41dba8c4",
         "pg006_n0009": "e07a518eaf4fddabd28aae7d91631874d40a46f9e28426b414adc6fda44ae4e5",
         "pg006_n0011": "2d40320d065f5414e810d6f5cf5821846a92dc03eebdce8fa2e0c2add9803b77",
@@ -1927,14 +1927,14 @@
         "pg063_n0009": "ff3de5d09e5fb3789a3d434ecea72c630e15dba5370ccacfa22009473594e9b9",
         "pg063_n0010": "6cf784ed0e6fa1ca750afe89e125b7bfdf19abac73994e7bdcbc46c133e2608c",
         "pg064_n0002": "49aa155d0f9a584eb5af4cc3220677993fdf479f85dd63cae9c57407d00ef5a8",
-        "pg064_n0004": "1434dbf2e82617946ca372205660f48ae601a37f17d9322c8630d5cf7ed01ca4",
+        "pg064_n0004": "844bd6cbebe07e10c8fcf2b1d583844b1acee6d1db00bd2acff465f85c454b1b",
         "pg064_n0006": "5824e4635642f0ec4d5390ef77a018f2e2726e7307f0b60531487126050829a4",
         "pg064_n0008": "e9670e659c7f7c89b8e69efacdbec0bf210b4135d6b189eb580687a136d808f9",
         "pg064_n0009": "57aef5a16cc97bc1c6780db2aab8ded6effbf00614d220921b6e5599babcabf2",
         "pg064_n0010": "7d92dbad1fdfa83125a902372926d8a1a2965ea0dd919441323dad35dbf6fc57",
         "pg064_im001": "52d3b1d39723ef5f31d1cd084b31145ba09e8e72a6ce0419a6401d6bf9d3a865",
         "pg064_n0012": "6f7f930f6585ac8e1bc1293032e3dd0c392c462759151c42484226248a836044",
-        "pg064_n0014": "818b2edcd4d7c5feeae40d42115790f1986d39fb26bbe7dc13009a269985d093",
+        "pg064_n0014": "8fef18ea144e17cb83fb5cd630ddb7b3775b9fdedfe8ef5029f8543f515fe8a3",
         "pg064_n0015": "c6a8833781c1c8c54f709db607696b77c5ba9a1af1cb12b5df061a64a5948e20",
         "pg064_n0016": "57dc27f5546ebf8fd4d631fc4f2e512be2da676a4f2f5854d567684d58b74640",
         "pg064_n0018": "bc9e32ac7c2ae6f32b2363b07234e4183c777aa75ee1dbe73d743a5678ac8a2b",
@@ -2703,7 +2703,7 @@
         "pg085_n0005": "7479aa5709b99b23ff01483e657b0f9b42f54a3d617c1d6063402d976c541e7a",
         "pg085_n0008": "f5c8f4f7d385dd84a598002938d7f8a2790c15aaa867781757719327170ebd0f",
         "pg085_n0009": "ba3813e5ab8cf43e405e44b74ecf998c11543beec4234e58603fbc58fa4f996e",
-        "pg085_n0010": "cc9913bbe5b033919f5c7aa37de522155234337dc62a91267583b6c343d258ad",
+        "pg085_n0010": "610d8dd13fa122becf9af7f203afe12154f3c6e381126bda8e0fe64869e6a4f7",
         "pg085_n0015": "c254d5ea9bcfc8f4d086e6be6c5218e58ee8b2afd98d99c8ca9c6a3b9ddd0f45",
         "pg085_im008_seg001_v1": "b1f3bfb1bef2968f810235608db0bcdaf4e5b2f4f72602ae0fa3deaf39defb34",
         "pg085_n0018": "b3c1a30fde82a2fe4dfdac40d760aed3d4e02c52cd2a32c4980ab57e4f7e21c6",
@@ -3908,7 +3908,7 @@
         "pg122_n0087": "256f5eea8892f2273b88b47ef7190e2433a86f22751fa0f6848a7d98edf50498",
         "pg122_n0092": "472e586ccbd540e8bf0929f9c475e56e8a380782b17309cfb865f954dbdcfc99",
         "pg122_n0093": "d727e6a5b107c4dbdccc4b3d9f3212a1867b84b325b1a1149612884d5b71d416",
-        "pg122_n0013": "e3fcaf3f84a3f96d33ae96776b4c8e3830aa61b834870e9cd34d2e666c1b5ba2",
+        "pg122_n0013": "de9dbbfbb70b49a546af1d5c7ab1dbcc8c048c3253454b54e254360afb87c06b",
         "pg122_n0015": "5efeb4986b285492ed5a98b2b23472279bc01513ae8565fcb4e57969fccaec3a",
         "pg122_n0017": "1dcba8532ea70be97411216ae5895a065197d205ad9621e3a2fae921cde10150",
         "pg122_n0018": "fbe5e3e0cc8ee47aa7e0ab4fdac4cb80b1bd18bf6b4477d2b90d41aaac6e6380",
@@ -4241,7 +4241,7 @@
         "pg131_n0066": "b262d208becc21850045a5bfea484c8e6878413a21cd4b6861c24e45776fb7aa",
         "pg131_n0068": "a2d696457c85c7e629b025efecef4229ea06fd11509843a6a1a8992ba030695e",
         "pg131_n0071": "59b49a79d3d1af43950a4b805cedc9cd0548cb728e06da96fda21eaf315bb272",
-        "pg131_n0072": "e499ab61e9ccecf55c0ef0c33f92d52d1239ff5ea69989efea8edf1c5ba4f056",
+        "pg131_n0072": "89c8cd00d372621f76c057f5185e4d8303a16a0a03ef098079f6a52e8caa2138",
         "pg131_n0073": "19231e26ac6510b37229bc583e75e685f33d33d61b8e92e72c8e204f65cb3949",
         "pg132_n0003": "83dd6abb837fd5394aaf3ce1fb07419c349f3ff9f639baae82bb68e336f56a42",
         "pg132_n0004": "ba3813e5ab8cf43e405e44b74ecf998c11543beec4234e58603fbc58fa4f996e",
@@ -5812,7 +5812,7 @@
         "pg002_n0013_easy_read": "daa6122374f34993ffd4e8056470add2cd85b7eff543aa5f3467c72311c30669",
         "pg005_n0005_easy_read": "db157c7768bcd04f14914823618d1fcb6771de2bd960ac38f7cd0dab20447861",
         "pg006_n0009_easy_read": "f0aa1d0a9b5d2bce1878b1ffee14a637b025650120e7b63241f19fd593bc1d68",
-        "pg006_n0007_easy_read": "ebca72d01dd1bfdf81a7a3394493ba99aa14ca164009241c6803e1757fdce0b2",
+        "pg006_n0007_easy_read": "27fdcd2501b919e2808fb409c5e1f2ee562d88918bb53e0939037d208d551d91",
         "pg006_n0011_easy_read": "d66e8ac1176bc1198f9e06bb846057b3152798d283d2f82b8a9443043383a941",
         "pg008_n0013_easy_read": "f3c53b0974899df735ecb030e0b34cef6d4b87ba85acb93e80e51dff9fcf653d",
         "pg006_n0014_easy_read": "efa29183881d2f6b0cfe684260a544ff6bc1ab3871c83b803843e4ae0d17569e",
@@ -8320,7 +8320,7 @@
         "pg086_n0027_easy_read": "b9ca52b722092d9f6b8436f3213bf1a429824a93284e52cee532ade77c1c2fee",
         "pg086_n0029_easy_read": "33b94a221cd6ecb0cad8a4312cb5c6bf35fc6e44eb6849972beb8f54f8aa9412",
         "pg086_n0034_easy_read": "5738089a639babb725e8335e6c118e7b9cb3ea720c8a551594745e18f37a8a15",
-        "pg085_n0010_easy_read": "7ad78adc03f5537bbb3a2ac34752b67dc6fae4d972686bb3cddd218f0bd804be",
+        "pg085_n0010_easy_read": "505b75c52711efb60cd578c6d960637633f22db7abb7bfef4b0254a3a85d7182",
         "pg087_n0016_easy_read": "722f2d5367283750002f72b88c38e880ba9ce1fa27ed98ce4cdf12de834ec6cb",
         "pg084_n0006_easy_read": "2cd41f7e3ec8a93adeb3ea7e7408727815d2747d6af24ea4ac0456ec0510c614",
         "pg087_n0002_easy_read": "eb3dbdf2c8c81b7a372f88c85e1a6084d4677bb17648cee62f0766f09558d496",
@@ -10511,7 +10511,84 @@
         "pg152_n0065_easy_read": "84b316e62b639aab2f941810e7949440df3b7563cc84060786dd4afedcc6db38",
         "pg150_n0020_easy_read": "1bd55b510b7afdec2510e6cc91c2ed29f2b5abbed5a95b5a373a2244a1547691",
         "pg152_n0064_easy_read": "9d7112f7a6a2a3b89ec507cfc6d083a15ad53e8ecb226a7f355c4bbacab5c16e",
-        "pg150_n0029_easy_read": "5b5975d484c904480994e20037ee12ac12b48fd74e23a54f88f635769bec26a3"
+        "pg150_n0029_easy_read": "5b5975d484c904480994e20037ee12ac12b48fd74e23a54f88f635769bec26a3",
+        "pg001_n0006": "d256b2e4450fa39ce20b625f3674cf40b87469241671ac3bb75380f6a2248067",
+        "pg001_n0006_easy_read": "9515fa168aebc274cf5c85011edb2c9ebdbe665da8c46e7f48ef14489e5e4e01",
+        "pg013_n0046": "b1b5c21eac345522fa147ee2d637fd843cd09c978aea9ac743262362198d2225",
+        "pg013_n0047": "ab884759bd9e380efbd823822dcb0348432892bea2eb47c372a31f60829ace03",
+        "pg013_n0048": "3e9b5f9a919df12efca783cb1074a40ca4ee6be7fa8c69cbc8674525f906e8d3",
+        "pg013_n0049": "42596b0e2d7393554c8d852d9f5f8cba02727772592cc6c3b29b7b301372e7ad",
+        "pg013_n0050": "a86f8d3530e221a958d1e591079369885ff40b73d06c14d1b31bc6a865ef1dd4",
+        "pg013_n0051": "d83db0cd52e6c0ec2a57ec44ed978fb71ef52d0bfab389efafa356e7c79f4d65",
+        "pg013_n0052": "ae80228b3a0b3c32934cd32848edc124b1ddbfdd87ef1ca23d84726c655d23bc",
+        "pg013_n0053": "b4d3b193fd6fe1540d87d7ef6f8eb2cb195ab180e98c800064f0618ebd0ce017",
+        "pg013_n0054": "8c6b50f17fa790baf74090b53fa1dc77c3bd2d4c2b417f4adb4511abbec22c9d",
+        "pg013_n0055": "e197587fa8df62a92fc8a7aad6e5af5cde8cfed9b967d71669eb5da269defe4c",
+        "pg013_n0056": "f8df7f24aa98ec6cf7f2d7fffe5be471227bb51e65aa1606d9b9dc62ef8b14a2",
+        "pg013_n0057": "9d1a35d141b999f52d9216eb890486d364cdb18440f745be4f2ac5aae1f2f68d",
+        "pg013_n0058": "90b352b941503bb548bd776e04558d17186edc5c8c18fb7a9616090172cf4725",
+        "pg013_n0059": "42cba5ac907ee549bd3c54094b040a1c7bfd9a14471bc890da08998e1921b4bf",
+        "pg013_n0060": "562cb81cf97167abe5802ef65ba216797358db07c7c498b6342c0b18f6ddb73b",
+        "pg013_n0061": "7916ed98315f2a66a529f8e163a79cc2236f3f9d4f6851dd16b25349c23758f2",
+        "pg014_n0066": "134b8d69ef6e837b044e473ba2fc52f91680008d4528e694c34e6fe7a939c1b4",
+        "pg014_n0067": "28d7901f1d9086fe2a38b310df7cce6bb4b426b1a21675d3d6e384e56286f605",
+        "pg014_n0068": "c54fac3f8113513b48e140ffa610923a6bb8bdac17a02c42639d728b303272ac",
+        "pg014_n0069": "e86b54de7f972adc514b1b0e986820ad7d8fc6766eb8966bc330e112cbb8e3da",
+        "pg014_n0070": "48214eb22489a2335785a8818a00632e7f9c29f058e279cbb8535ffcff72e5d1",
+        "pg014_n0071": "6a460a2cedfc21d7f85c65276e4caa0b6d09e0edd888275bd95fc71872c091c6",
+        "pg014_n0072": "677cda2c5a8723944e187b7d2a3bc15fc5f56c1c010b7bff37540144ec047dc9",
+        "pg014_n0073": "994cbbe526ac0a0a361579ab123aadd530d405c4df295641dfd9504b51561063",
+        "pg014_n0074": "499c52261cf7cb467997d8b62c899d3844d8df62273d9ae9b84d7d2f00729788",
+        "pg015_n0001": "7cd8ccd38742f33a1db31e12648c44b993d0c255eabb5ce66a294a4829fc0c01",
+        "pg015_n0002": "6ed9def2e6cf64ddf197ec0be6022098e15c8505755eb4030d6ec58483745c07",
+        "pg015_n0003": "9b40421246c76a440813ae8c6ec15f83ac296643dcfd51eed40af383512eb6f0",
+        "pg015_n0004": "aae1af3cba62609872a73ef15a015b106fe352e6f7150e84b03a40a037d44c00",
+        "pg015_n0005": "0464de410855daf3f238b55b2704b940eb71346ebd1ba96654c62c7fa76eecb9",
+        "pg015_n0006": "e0b7eccba320ea64dc8b45f009bbad650a31ab12132ae4518c712120f2a12bdc",
+        "pg015_n0007": "893663134de3a2aaf4a1cc75de5b0d7a8df4d04cf9576e011a4fde81b796b4c0",
+        "pg015_n0008": "135ef415d1926156e9f32186fedbf2ef07899357a5f29d157761739fde36c061",
+        "pg015_n0009": "16dd49c5f00fa70f9ddfe0136ae6004c7759834d4a6e7151f092a671e74e46ad",
+        "pg015_n0010": "ab884759bd9e380efbd823822dcb0348432892bea2eb47c372a31f60829ace03",
+        "pg015_n0011": "e0d7e25577f6c6e9a0c82973b5726862fb27f1f806f17f3e28b5fb63d49a83a2",
+        "pg015_n0012": "4782a02df971d047062bc8ec664029d10d5ad1f5a540fd63884d8f87a62b5e1c",
+        "pg015_n0013": "d5a920c4f9116d9b7022d9d49e448eb0ca3f1cef370ec9794a61f94bf0bb5353",
+        "pg015_n0014": "d0edf690655b5a8704d9e49668b4ca6dfc3b7f73892ea96f11101894dccfb7e0",
+        "pg015_n0015": "f7cb146bdf10564ee8745bb6012ffe475b8b7e0c62123cd0d20519fc84378363",
+        "pg015_n0016": "5cf068c3360bea6bde52880e2fb5c168791d83578c7ec88c9b547779852cba50",
+        "pg015_n0017": "6bcdf11cd6fa71bfaf97ea7ee533f6652241504c0f9e2ccb8f87d4bfecf005ff",
+        "pg015_n0018": "cc1566d0f1e8b84ea767a9ede2c46733d02fb59a3fcc6de7f50d33600522ef2f",
+        "pg015_n0019": "a9281e65f62f8422d6f1db586e1cd3dc771ce69908d6a7ca7b819df7b95c687e",
+        "pg015_n0020": "abb9f85e2e5b5588a782064534dad26d17b52a3cfa67734ae19d8dd060ad478c",
+        "pg015_n0021": "740cb56933c158dccebd0b09c0022a9fff68ef9b5d10c5a30bdb79829eb8763d",
+        "pg015_n0022": "fc6622a367ea1f6d15dac8373d2bf95c01069d21c2893aabde491c44cddb6e3d",
+        "pg015_n0023": "ddb737059856ae6717b94542fbf364dbac7b4a9c59201532f2fdc432fe20ce04",
+        "pg015_n0024": "7c91fa1fc185fc60e1097d7d2f521c22c71494b516cd59db98fd4da377cbfaef",
+        "pg015_n0025": "84ad7ca691098db690eea35c1d30d22f578ea7e69333d262a0f52103b6234996",
+        "pg016_n0001": "03700afb43cfdda4b22aa9a9fa237e89823fb44aee6d178f4fca936529f4d822",
+        "pg016_n0002": "2100cb5b1beced51100402eaebbb6619de817000ab429d89bf91ce996a5063bc",
+        "pg016_n0003": "7f0acfeff3448b6fa1aff2b1f9efb3393254df4489d8b2ef1de50508305ca44d",
+        "pg016_n0004": "d034d259e164cbc8fd3024b6e02c127c7eec39ba1eb7121537a7308c901bc715",
+        "pg016_n0005": "d82e31950058504471f6f72255ad3876c0ac2d219f6c75c096f8af50ee0b886a",
+        "pg016_n0006": "cc53e95ba78c8c009f201d3623d0f2aa449476d4fbb5d09d18aad3d59d757316",
+        "pg016_n0007": "8e66b4f23cb9c8a3222b00ed4c2fea8009682b9995e48ef87d9039d30780454d",
+        "pg016_n0008": "0a97f835f8fb0a96a1d550a954c95081adef59edf9ce5b85eb0b95bf6c0c5284",
+        "pg016_n0009": "6f22fb721d273357065fbb9fcbf90ecae3300f94a343ea92c184a51d46a61ee3",
+        "pg016_n0010": "3b06b044160e0b5e844ef3051210b2c041707e2455547543cb4b932458704efd",
+        "pg016_n0011": "71d10109e1a3cbc2909a9c9a2ebdd60a6458b440fbc20d671e5cd0e4c02bee72",
+        "pg016_n0012": "4c7727a6e29c767a2a5bfb1a277aaf4265a0ea69457eefa0023983d46b83ea2a",
+        "pg016_n0013": "7f581e59dbaeaf603abc18a9dda7ec4e7ab85ef9937e80ea60ebcadc128830c9",
+        "pg016_n0014": "cb952530c767716bde2394f1b0aa1f414c6ee0350088912422526b4c6befb7b2",
+        "pg016_n0015": "e089b8fec0e12dd469e51c912e83ef6c38747901b0dfaa1cbccc2c415714f392",
+        "pg016_n0016": "47d3c93742c42c6a1d9bc3b1fa4c99a92a1d525640ed47ebd95c7088e355d30f",
+        "pg016_n0017": "c6604ae1a2f388809163e8a9f834be5b0cb0bc0e9dbab3fa305dff13044f40e9",
+        "pg016_n0018": "50bad0c4d8e478bd56b64f48466d0f0ca5ac93e6c04964a3a1ee03e060e26a57",
+        "pg016_n0019": "55e67792856bac3182d2eff407e76ec44d2d6832e0af3292d0a7730b2f4ce142",
+        "pg016_n0020": "711b4375340058b04521ed07835c53fd768c056d884ad9e486dc4c4eab65674d",
+        "pg016_n0021": "0187e9f3e51a75d3968ea6a88b5b579d661fde30378f09d94ce820e89ae2611a",
+        "pg016_n0022": "59b49a79d3d1af43950a4b805cedc9cd0548cb728e06da96fda21eaf315bb272",
+        "pg016_n0023": "2fe57f101a10ab0733e27ed929cbd36da0c85ee4444baf5e9b8e624cd599dfa1",
+        "pg016_n0024": "9777b0bb601eeebaabf1df9669fba6192e82c48f25d20c2517236297f54ce517",
+        "pg016_n0025": "c57d2908fa1c827994d5207e3f78d4ec792aa0e15711730d8b978f7020f02a34"
       },
       "entrySettings": {
         "pg001_n0002": {
@@ -84029,6 +84106,545 @@
           "format": "wav"
         },
         "pg150_n0029_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_n0006_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0046": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0047": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0048": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0049": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0050": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0051": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0052": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0053": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0054": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0055": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0056": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0057": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0058": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0059": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0060": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0061": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0066": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0067": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0068": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0069": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0070": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0071": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0072": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0073": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0074": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0001": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0002": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0003": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0004": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0005": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0007": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0008": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0009": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0010": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0011": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0012": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0016": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0017": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0019": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0020": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0021": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0022": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0023": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0024": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0025": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0001": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0002": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0003": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0004": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0005": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0007": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0008": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0009": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0010": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0011": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0012": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0016": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0017": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0019": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0020": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0021": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0022": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0023": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0024": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0025": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",
@@ -157552,6 +158168,545 @@
           "format": "wav"
         },
         "pg150_n0029_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_n0006_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0046": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0047": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0048": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0049": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0050": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0051": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0052": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0053": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0054": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0055": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0056": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0057": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0058": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0059": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0060": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg013_n0061": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0066": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0067": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0068": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0069": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0070": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0071": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0072": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0073": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg014_n0074": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0001": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0002": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0003": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0004": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0005": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0007": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0008": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0009": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0010": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0011": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0012": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0016": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0017": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0019": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0020": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0021": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0022": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0023": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0024": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg015_n0025": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0001": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0002": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0003": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0004": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0005": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0006": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0007": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0008": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0009": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0010": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0011": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0012": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0016": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0017": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0019": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0020": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0021": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0022": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0023": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0024": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg016_n0025": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",
