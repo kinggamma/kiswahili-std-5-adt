@@ -53839,7 +53839,7 @@ function useAtomValueWithDelay<Value>(
     languages: { available: ["en"], default: "en" },
     features: {}
   };
-  async function loadAppConfig(versionParam = "") {
+  async function loadAppConfig(versionParam = "2") {
     try {
       const url = `./assets/config.json${versionParam ? `?v=${versionParam}` : ""}`;
       const res = await fetch(url);
