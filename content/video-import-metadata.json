@@ -3164,6 +3164,90 @@
       "audio_mode": "keep",
       "trim_start": null,
       "trim_end": null
+    },
+    "video-17": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg014_sec002.mp4",
+      "section_id": "pg014_sec002",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_17.mp4",
+      "source_size": 6645964,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-18": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg015_sec001.mp4",
+      "section_id": "pg015_sec001",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_18.mp4",
+      "source_size": 5445412,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-19": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg015_sec002.mp4",
+      "section_id": "pg015_sec002",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_19.mp4",
+      "source_size": 11664976,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-20": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg016_sec001.mp4",
+      "section_id": "pg016_sec001",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_20.mp4",
+      "source_size": 3615789,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-21": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg016_sec002.mp4",
+      "section_id": "pg016_sec002",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_21.mp4",
+      "source_size": 909657,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-22": {
+      "imported_at": "2026-08-16T15:07:48Z",
+      "filename": "sl_pg016_sec003.mp4",
+      "section_id": "pg016_sec003",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "page_22.mp4",
+      "source_size": 1193836,
+      "preset": "copy",
+      "audio_mode": "keep",
+      "trim_start": null,
+      "trim_end": null
     }
   }
 }
