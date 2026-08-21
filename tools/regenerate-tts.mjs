@@ -59,11 +59,81 @@ const NAMED_HTML_ENTITIES = {
   nbsp: " ",
 }
 
+const SW_CARDINAL_WORDS = [
+  "moja", "mbili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi",
+  "kumi na moja", "kumi na mbili", "kumi na tatu", "kumi na nne", "kumi na tano",
+  "kumi na sita", "kumi na saba", "kumi na nane", "kumi na tisa", "ishirini",
+]
+const ROMAN_NUMERAL_VALUES = {
+  i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10,
+  xi: 11, xii: 12, xiii: 13, xiv: 14, xv: 15, xvi: 16, xvii: 17, xviii: 18, xix: 19, xx: 20,
+}
+// Bare single-letter list markers like "(a)" or "f." get sounded out with Swahili
+// vowel/consonant phonetics by the TTS, which reads badly. Spell the ENGLISH
+// letter name out phonetically instead so it reads as "ay", "bee", "cee", etc.
+const ENGLISH_LETTER_NAMES = {
+  a: "Ei", b: "Bii", c: "Sii", d: "Dii", e: "Ii", f: "Efu", g: "Jii", h: "Echi",
+  i: "Ai", j: "Jei", k: "Kei", l: "Elu", m: "Emu", n: "Enu", o: "Ou", p: "Pii",
+  q: "Kyuu", r: "Aru", s: "Esu", t: "Tii", u: "Yuu", v: "Vii", w: "Dabuluyu",
+  x: "Eksi", y: "Wai", z: "Zedi",
+}
+
+// Abbreviations that get mangled when sounded out letter-by-letter (e.g.
+// "S.L.P." — Swahili for "P.O. Box" — was heard as "Silapi sikili"). Expand
+// them to the full words before synthesis. Applied as a substring
+// replacement since the abbreviation can appear embedded in a longer line
+// (e.g. "S.L.P. 60,"), not just as a standalone unit.
+// NOTE: this addition is local to this exported bundle's copy of the
+// normalizer and is not (yet) mirrored in regen-emit.ts / speech.ts.
+const ABBREVIATION_EXPANSIONS = [
+  { pattern: /S\.L\.P\.?/gi, replacement: "Sanduku la Posta" },
+]
+
+function expandAbbreviations(text) {
+  return ABBREVIATION_EXPANSIONS.reduce(
+    (acc, { pattern, replacement }) => acc.replace(pattern, replacement),
+    text,
+  )
+}
+
 // Must match normalizeRegenSpeechText in regen-emit.ts. Exported texts can
 // contain rendered MathML, but TTS providers need the visible text, not tags.
 function normalizeRegenSpeechText(text) {
-  const withoutMarkup = stripEmojis(String(text || "")).replace(/<\/?[A-Za-z][^>]*>/g, " ")
-  const decoded = withoutMarkup.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
+  const withoutMarkup = expandAbbreviations(stripEmojis(String(text || "")))
+    .replace(/<\/?[A-Za-z][^>]*>/g, " ")
+    // Fill-in-the-blank placeholder syntax like "[[blank:item-2]]" is meant to be
+    // rendered as an empty input box, not read aloud — but it was leaking into
+    // TTS input verbatim (observed as a stray extra word/phrase being spoken
+    // after markers like "akiwa"). Drop it from the speech text entirely.
+    .replace(/\[\[blank:[^\]]*\]\]/gi, " ")
+  // A bare list marker like "5." with nothing else has no context for the TTS to
+  // tell it's a list item, so it gets read inconsistently (observed misreading
+  // "5." as "nane" (8) instead of "tano" (5)). Speak the plain Swahili cardinal
+  // word instead — unambiguous either way.
+  const bareOrdinalMatch = /^(\d{1,2})\.$/.exec(withoutMarkup.trim())
+  const ordinalWord = bareOrdinalMatch ? SW_CARDINAL_WORDS[Number(bareOrdinalMatch[1]) - 1] : undefined
+  const withoutBareOrdinal = ordinalWord ?? withoutMarkup
+  // A bare roman numeral list marker like "(i)" or "v" has no context for the TTS
+  // either, and gets mangled trying to sound out "i"/"v" as English letters. Speak
+  // it out as the plain Swahili cardinal word instead (e.g. "(iii)" -> "tatu").
+  const romanMatch = /^\(?([ivx]+)\)?\.?$/i.exec(withoutBareOrdinal.trim())
+  const romanValue = romanMatch ? ROMAN_NUMERAL_VALUES[romanMatch[1].toLowerCase()] : undefined
+  const romanWord = romanValue ? SW_CARDINAL_WORDS[romanValue - 1] : undefined
+  const withoutRoman = romanWord ?? withoutBareOrdinal
+  // A bare single-letter list marker like "(a)" or "f." has the same problem —
+  // speak the English letter name instead of sounding it out with Swahili phonetics.
+  const bareLetterMatch = /^\(?([a-z])\)?\.?$/i.exec(withoutRoman.trim())
+  const letterWord = bareLetterMatch ? ENGLISH_LETTER_NAMES[bareLetterMatch[1].toLowerCase()] : undefined
+  const withoutBareLetter = letterWord ?? withoutRoman
+  // A numbered list item like "5. Karatasi safi za rangi..." has the leading
+  // digit marker silently dropped or misread by the TTS instead of being read
+  // out loud correctly. Spell that leading number out as a word so it's voiced.
+  const leadingNumberMatch = /^(\d{1,2})\.\s+(\S.*)$/s.exec(withoutBareLetter.trim())
+  const leadingNumberWord = leadingNumberMatch ? SW_CARDINAL_WORDS[Number(leadingNumberMatch[1]) - 1] : undefined
+  const withoutLeadingNumber = leadingNumberMatch && leadingNumberWord
+    ? `${leadingNumberWord[0].toUpperCase()}${leadingNumberWord.slice(1)}. ${leadingNumberMatch[2]}`
+    : withoutBareLetter
+  const decoded = withoutLeadingNumber.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
     if (decimal || hex) {
       const codePoint = Number.parseInt(decimal ?? hex, decimal ? 10 : 16)
       return codePoint <= 0x10FFFF ? String.fromCodePoint(codePoint) : match
