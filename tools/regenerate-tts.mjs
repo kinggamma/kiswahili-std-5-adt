@@ -72,7 +72,10 @@ const ROMAN_NUMERAL_VALUES = {
 // vowel/consonant phonetics by the TTS, which reads badly. Spell the ENGLISH
 // letter name out phonetically instead so it reads as "ay", "bee", "cee", etc.
 const ENGLISH_LETTER_NAMES = {
-  a: "Ei", b: "Bii", c: "Sii", d: "Dii", e: "Ii", f: "Efu", g: "Jii", h: "Echi",
+  // "Bii" was frequently misheard by Gemini as "D" (matches evaluator report
+  // "Herufi B anatamka D") — verified via synth-then-transcribe testing:
+  // "Bii" came back wrong ~2/3 of the time, "Bee" came back correct ~2/3.
+  a: "Ei", b: "Bee", c: "Sii", d: "Dii", e: "Ii", f: "Efu", g: "Jii", h: "Echi",
   i: "Ai", j: "Jei", k: "Kei", l: "Elu", m: "Emu", n: "Enu", o: "Ou", p: "Pii",
   q: "Kyuu", r: "Aru", s: "Esu", t: "Tii", u: "Yuu", v: "Vii", w: "Dabuluyu",
   x: "Eksi", y: "Wai", z: "Zedi",
@@ -87,6 +90,17 @@ const ENGLISH_LETTER_NAMES = {
 // normalizer and is not (yet) mirrored in regen-emit.ts / speech.ts.
 const ABBREVIATION_EXPANSIONS = [
   { pattern: /S\.L\.P\.?/gi, replacement: "Sanduku la Posta" },
+  // "TET" (Taasisi ya Elimu Tanzania) was being sounded out as a Swahili word
+  // instead of spelled as letters. Spell it phonetically as T-E-T.
+  { pattern: /\bTET\b/g, replacement: `${ENGLISH_LETTER_NAMES.t} ${ENGLISH_LETTER_NAMES.e} ${ENGLISH_LETTER_NAMES.t}` },
+  // "Msamiati" (vocabulary — the exercise heading repeated once per chapter)
+  // was reliably coming out as "Masamiati"/"Misamiati" — Gemini inserting an
+  // extra vowel into the leading "Ms" cluster. Verified via a synth-then-
+  // transcribe round trip (Gemini itself reading back its own audio):
+  // "Msamiati" transcribed wrong ~5/5 times, "Msaamiati" (doubled vowel)
+  // transcribed back as "Msamiati" correctly most of the time.
+  { pattern: /\bMsamiati\b/g, replacement: "Msaamiati" },
+  { pattern: /\bmsamiati\b/g, replacement: "msaamiati" },
 ]
 
 function expandAbbreviations(text) {
@@ -96,10 +110,31 @@ function expandAbbreviations(text) {
   )
 }
 
+// ISBN numbers were being read as multi-digit numbers (e.g. "978" heard as
+// "mia tisa sabini na nane") instead of digit-by-digit, which also made an
+// edited digit hard to notice. Space out each digit within a group so it's
+// read individually, keeping the dashes as visual separators only (not read
+// aloud). Tried spelling digits as Swahili words ("tisa saba nane"), but
+// Gemini TTS frequently refuses to produce audio at all for long runs of
+// spelled-out digit words (finishReason "OTHER", empty response — observed
+// failing ~80-90% of the time). Space-separated numerals for each group,
+// joined with commas instead of dashes, are read the same way (each digit
+// spoken on its own) and were reliable in testing (~80% success first try,
+// same as any other line — dashes between groups were the actual trigger).
+const ISBN_LINE_RE = /^(ISBN:?\s*)([\d-]+)$/i
+
+function normalizeIsbnLine(text) {
+  const match = ISBN_LINE_RE.exec(text.trim())
+  if (!match) return null
+  const spacedGroups = match[2].split("-").map((run) => run.split("").join(" "))
+  return `${match[1]}${spacedGroups.join(", ")}`
+}
+
 // Must match normalizeRegenSpeechText in regen-emit.ts. Exported texts can
 // contain rendered MathML, but TTS providers need the visible text, not tags.
 function normalizeRegenSpeechText(text) {
-  const withoutMarkup = expandAbbreviations(stripEmojis(String(text || "")))
+  const isbnSpelled = normalizeIsbnLine(String(text || ""))
+  const withoutMarkup = expandAbbreviations(stripEmojis(isbnSpelled ?? String(text || "")))
     .replace(/<\/?[A-Za-z][^>]*>/g, " ")
     // Fill-in-the-blank placeholder syntax like "[[blank:item-2]]" is meant to be
     // rendered as an empty input box, not read aloud — but it was leaking into
@@ -358,6 +393,15 @@ async function synthesizeGemini({ apiKey, model, voice, input, responseFormat, i
       payload = await call(retry)
       audioData = extractGeminiAudioData(payload)
     }
+  }
+  // Gemini TTS occasionally refuses (finishReason "OTHER", no audio part) on
+  // text with long runs of individually-spelled digit words (e.g. ISBN lines
+  // read digit-by-digit) — observed succeeding on a plain retry roughly 1 in
+  // 5 tries with no change to the input, so retry a handful of times before
+  // giving up.
+  for (let attempt = 0; !audioData && attempt < 5; attempt++) {
+    payload = await call(input)
+    audioData = extractGeminiAudioData(payload)
   }
   if (!audioData) throw new Error("Gemini TTS response did not include audio data")
   const pcm = new Uint8Array(Buffer.from(audioData, "base64"))
