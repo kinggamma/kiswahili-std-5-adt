@@ -103,6 +103,28 @@ const ABBREVIATION_EXPANSIONS = [
   { pattern: /\bmsamiati\b/g, replacement: "msaamiati" },
 ]
 
+// pg069's "letters are scrambled, unscramble them" puzzle (e.g. "(i) kaap",
+// meant to unscramble to "paka") was being read as a mispronounced attempt at
+// a real word ("kaap" -> "Kaab") instead of spelling out the individual
+// letters — useless for figuring out which letters to rearrange if you're
+// listening rather than looking at the page. Scoped to these exact strings
+// (not a general pattern) since the same "(roman numeral) short word" shape
+// is also used elsewhere for ordinary answer options that ARE real words
+// and must stay pronounced normally (e.g. pg023's "(c) Mimi").
+const EXACT_TEXT_OVERRIDES = new Map([
+  ["(i) kaap", "moja: Kei, Ei, Ei, Pii."],
+  ["(ii) mbeto", "mbili: Emu, Bii, Ii, Tii, Ou."],
+  ["(iii) mbagu", "tatu: Emu, Bii, Ei, Jii, Yuu."],
+  ["(iv) wigat", "nne: Dabuluyu, Ai, Jii, Ei, Tii."],
+  ["(v) neon", "tano: Enu, Ii, Ou, Enu."],
+  ["(vi) rigin", "sita: Aru, Ai, Jii, Ai, Enu."],
+  ["(vii) ukis", "saba: Yuu, Kei, Ai, Esu."],
+  ["(viii) moot", "nane: Emu, Ou, Ou, Tii."],
+  ["(ix) tabuki", "tisa: Tii, Ei, Bii, Yuu, Kei, Ai."],
+  ["(x) mubiz", "kumi: Emu, Yuu, Bii, Ai, Zedi."],
+  ["(xi) panud", "kumi na moja: Pii, Ei, Enu, Yuu, Dii."],
+])
+
 function expandAbbreviations(text) {
   return ABBREVIATION_EXPANSIONS.reduce(
     (acc, { pattern, replacement }) => acc.replace(pattern, replacement),
@@ -130,17 +152,51 @@ function normalizeIsbnLine(text) {
   return `${match[1]}${spacedGroups.join(", ")}`
 }
 
+// A postal code prefixing a place name (e.g. "14112 Dar es Salaam") was
+// read as one long number and lost a digit ("14112" heard as "1141") — the
+// same failure mode as ISBN numbers. Space out the digits so each is read
+// individually, same fix as normalizeIsbnLine above.
+const POSTAL_CODE_LINE_RE = /^(\d{4,6})(\s+\D.*)$/
+
+function normalizePostalCodeLine(text) {
+  const match = POSTAL_CODE_LINE_RE.exec(text.trim())
+  if (!match) return null
+  return `${match[1].split("").join(" ")}${match[2]}`
+}
+
+// A singular/plural (or scrambled/unscrambled) word pair joined by an en-dash
+// as a standalone "Mfano:" example (e.g. "mnyama – wanyama") was losing the
+// dash entirely in speech, running the two words together into one confusing
+// blob ("mnyama – wanyama" heard as "nyama wa nyama"). A comma reads as a
+// clear pause between the two words, same fix as the ISBN/postal-code dashes
+// above.
+const WORD_PAIR_DASH_RE = /^(\S+)\s[–—-]\s(\S+)$/
+
+function normalizeWordPairDash(text) {
+  const match = WORD_PAIR_DASH_RE.exec(text.trim())
+  if (!match) return null
+  return `${match[1]}, ${match[2]}`
+}
+
 // Must match normalizeRegenSpeechText in regen-emit.ts. Exported texts can
 // contain rendered MathML, but TTS providers need the visible text, not tags.
 function normalizeRegenSpeechText(text) {
-  const isbnSpelled = normalizeIsbnLine(String(text || ""))
-  const withoutMarkup = expandAbbreviations(stripEmojis(isbnSpelled ?? String(text || "")))
+  const rawText = String(text || "")
+  const exactOverride = EXACT_TEXT_OVERRIDES.get(rawText.trim())
+  if (exactOverride) return exactOverride
+  const numberSpelled =
+    normalizeIsbnLine(rawText) ?? normalizePostalCodeLine(rawText) ?? normalizeWordPairDash(rawText)
+  const withoutMarkup = expandAbbreviations(stripEmojis(numberSpelled ?? rawText))
     .replace(/<\/?[A-Za-z][^>]*>/g, " ")
     // Fill-in-the-blank placeholder syntax like "[[blank:item-2]]" is meant to be
-    // rendered as an empty input box, not read aloud — but it was leaking into
-    // TTS input verbatim (observed as a stray extra word/phrase being spoken
-    // after markers like "akiwa"). Drop it from the speech text entirely.
-    .replace(/\[\[blank:[^\]]*\]\]/gi, " ")
+    // rendered as an empty input box, not read aloud verbatim — but dropping it
+    // to a plain space made the blank inaudible: the sentence just ran the
+    // surrounding words together with no cue a word was missing (e.g. "Watoto
+    // walikuwa [[blank]] na kuogelea" read as "Watoto walikuwa nakuogelea").
+    // An ellipsis reads as a genuine pause (measured ~0.8s longer than no gap
+    // at all) without adding any spoken word, so the listener can tell there's
+    // a blank to fill in without it sounding like new vocabulary.
+    .replace(/\[\[blank:[^\]]*\]\]/gi, " ... ")
   // A bare list marker like "5." with nothing else has no context for the TTS to
   // tell it's a list item, so it gets read inconsistently (observed misreading
   // "5." as "nane" (8) instead of "tano" (5)). Speak the plain Swahili cardinal
